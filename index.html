@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Balance Viewer</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="scripts/main.js"></script>
+    <script defer src="scripts/token.js"></script>
+</head>
+<body>
+    <h1>Blockchain Balance Viewer</h1>
+
+    <!-- Wallet Selection-->
+     <div id="wallet-selection">
+        <button
+        id="connectWallet">Connect Your Wallet</button>
+        <div id="walletDetails"></div>
+     </div>
+
+     <!-- Token Selection-->
+      <div id="token-selection">
+        <h2>Check your ERC-20 Token Balance</h2>
+        <input type="text" id="tokenAddress" placeholder="Token Contract Address">
+        <button
+        id="checkTokenBalance">Check Token Balance</button>
+        <div id="tokenBalance"></div>
+      </div>
+</body>
+</html>

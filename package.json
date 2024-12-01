@@ -1,0 +1,20 @@
+{
+  "name": "web3-wallet-balance-viewer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "ethers": "^6.13.4",
+    "vercel": "^32.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
